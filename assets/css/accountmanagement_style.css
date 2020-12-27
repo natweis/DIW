@@ -1,0 +1,12 @@
+td{
+    color:white;
+    font-size: small;
+}
+h1{
+    color: rgb(250,240,10);
+    font-size:x-large;
+}
+#table{
+    display: flex;
+  justify-content: center;
+}

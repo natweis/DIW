@@ -1,0 +1,16 @@
+#login-screen{
+	padding-top: 40px;
+	margin-top: 0px;
+}
+.login-dark .illustration i{
+	border-top-color: rgb(249,229,38);
+	color: rgb(249,229,38);
+}
+.login-dark form .btn{
+	color: rgb(249,229,38);
+	background: #475d62;
+}
+.login-dark form .forgot{
+	color: rgb(249,229,38);
+	padding-top: 10px;
+}

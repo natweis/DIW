@@ -1,0 +1,27 @@
+#content-genre
+{
+	text-align:center;
+}
+
+#content-genre h1
+{
+	width: 100%;
+	font-family: Aclonica, sans-serif;
+	color: #ffffff;
+	font-size: 40px;
+	padding-top: 1rem;
+}
+#content-genre h4
+{
+	width: 100%;
+	font-family: Aclonica, sans-serif;
+	color: #ffffff;
+	font-size: 14px;
+}
+#content-genre p
+{
+	margin-top: 2rem;
+	margin-bottom: 5rem;
+	color: #ffffff;
+	font-size: 16px;
+}

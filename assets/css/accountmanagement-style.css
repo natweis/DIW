@@ -1,0 +1,44 @@
+.accbgr{
+    background-image: url(../img/code.jpg);
+}
+table, th, td, caption {
+    border: 3px solid #000000;
+}
+td{
+    color:rgb(255, 255, 255);
+    font-size: small;
+    padding: .2em .5em;
+    border-radius: .1em;  
+    text-align: center;
+    background-color: #8f999b;
+}
+th{
+    padding: .2em .5em;
+    border-radius: .1em; 
+    background-color: #4c5355;
+     color: black;
+     font-size: small;
+}
+h1{
+    color: rgb(249,229,38);
+    font-size:x-large;
+    text-align: center;
+    margin: 1%;
+}
+#table{
+    display: flex;
+    justify-content: center;
+}
+p{
+    color:rgb(255, 255, 255);
+    font-size: smaller;
+    margin-bottom: -2px;
+}
+input, select{
+    margin-bottom: 2%;
+}
+.accreturn{
+    color: rgb(249,229,38);
+    text-align: center;
+}
+

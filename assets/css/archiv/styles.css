@@ -1,0 +1,111 @@
+/*IMPORT Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Aclonica&family=Acme&family=Alegreya&family=Alfa+Slab+One&family=Boogaloo&family=Cookie&family=Raleway&display=swap');
+
+
+body{
+	background: #444f51;
+}
+
+/* BEGINN - Styling im Segment <nav> */
+
+.navbar{
+	height: 56px;
+}
+#logo{
+	font-family: Abel, sans-serif;
+	text-align: left;
+	color: #f74902;
+	font-size: 20px;
+}
+.navbar-brand{
+	font-family: Abel, sans-serif;
+	text-align: left;
+	color: #f74902;
+}
+#navcol-1 ul{
+	margin-left: 26px;
+}
+#navcol-1 .nav-link{
+	color: #f9e526;
+}
+#suchfeld{
+	padding: 8px;
+	width: 154px;
+	height: 25px;
+	margin-top: 8px;
+	opacity: 0.75;
+}
+#such-icon{
+	padding: 4px;
+	margin-left: -12px;
+}
+#such-icon i{
+	color: #f9e526;
+	font-size: 20px;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+#login-icon{
+	color: #f9e526;
+	font-size: 20px;
+	padding-left:5px;
+}
+#favoriten-icon{
+	color: #f9e526;
+	font-size: 20px;
+	margin-top: 6px;
+	padding-left:5px;
+}
+#meinaccount-icon{
+	color: #f9e526;
+	font-size: 20px;
+	margin-top: 6px;
+	padding-left:5px;
+}
+.dropdown{
+	padding-right: 5.5%;
+}
+.dropdown .icon{
+	color: #f9e526;
+	border-width: 0px;
+	font-size: 20px;
+	text-align: center;
+}
+.dropdown .dropdown-menu .row .col label{
+	color: #f74902;
+	margin-left: 10px;
+	font-size: 13px;
+}
+/* ENDE - Styling im Segment <nav> */
+
+/* BEGINN - Styling im Segment <footer> */
+#start-footer a{
+	font-size: 13px;
+}
+#center-footer {
+	text-align: center;
+}
+#center-footer h3 a{
+	color: #f74902;
+	font-family: Abel, sans-serif;
+	text-align: center;
+}
+#center-footer .social-links .social-icons{
+	text-align: center;
+	margin-top: 30px;
+}
+#center-footer .company-name{
+	text-align: center;
+	margin-bottom: 16px;
+	margin-top: 43px;
+}
+#end-footer p{
+	padding-top: 10px;
+	text-align: center;
+}
+#end-footer h4{
+	text-align: center;
+	padding-top: 23px;
+}
+/* ENDE - Styling im Segment <footer> */
+

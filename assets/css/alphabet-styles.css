@@ -1,0 +1,38 @@
+.col-lg-8 h2{
+	font-family: Aclonica, sans-serif;
+	margin-top: 25px;
+	color: #ffffff;
+}
+.col-lg-8 p{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #ffffff;
+}
+.row .col{
+	margin-bottom: 14px;
+}
+.list-inline{
+	border-bottom: 3px solid rgb(247,73,2);
+	color: #ffffff;
+	font-size: 20px;
+}
+.list-inline-item{
+	padding-right: 7px;
+}
+.list-inline-item a{
+	color: #f9e526;
+}
+.col-lg-11 h3{
+	font-size: 21px;
+	background: rgb(41,44,47);
+	color: #f9e526;
+	padding-left: 10px;
+}
+.col-lg-11 a{
+	padding-left: 20px;
+	color: #f9e526;
+}
+.col-lg-11  p{
+	padding-left: 20px;
+	color: red;
+}

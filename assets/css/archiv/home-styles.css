@@ -1,0 +1,44 @@
+.simple-slider{
+	height: 200;
+}
+.swiper-container{
+	height: 200;
+}
+.swiper-wrapper{
+	height: 200;
+}
+#slide1{
+	height: 200;
+	background: url(../img/painting.jpg) center / contain no-repeat;
+	margin-top: 18px;
+}
+#slide2{
+	background: url(../img/woman_gallery.jpg) center / contain no-repeat;
+}
+#slide3{
+	background: url(../img/paintboard.jpg) center / contain no-repeat;
+}
+
+
+
+.article-list{
+	background: rgba(255,255,255,0);
+}
+.article-list .intro h2{
+	color: rgb(255,255,255);
+	font-family: Aclonica, sans-serif;
+}
+.article-list .intro p{
+	color: rgb(220,220,220);
+	font-family: Aclonica, sans-serif;
+	margin-bottom: -12px;
+}
+.articles .item .name{
+	color: rgb(255,255,255);
+}
+.articles .item .description{
+	color: rgb(220,220,220);
+}
+.articles .item .fa{
+	color: rgb(250,240,10);
+}

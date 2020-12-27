@@ -1,0 +1,26 @@
+.projects-clean{
+	background: rgba(0,0,0,0);
+}
+.projects-clean .intro h2{
+	color: rgb(255,255,255);
+	font-family: Aclonica, sans-serif;
+}
+.projects-clean .intro p{
+	color: rgb(220,220,220);
+	font-family: Abel, sans-serif;
+	font-size: 18px;
+}
+.projects-clean .projects .name{
+	color: rgb(255,255,255);
+	font-family: Abel, sans-serif;
+}
+.projects-clean .projects .description{
+	color: rgb(220,220,220);
+}
+.item .name{
+	color: rgb(255,255,255);
+	font-family: Abel, sans-serif;
+}
+.item .description{
+	color: rgb(220,220,220);
+}

@@ -1,0 +1,104 @@
+/* Beginn Section projects-horizontal */
+.projects-horizontal{
+	background: rgba(0,0,0,0);
+}
+.intro{
+	padding-bottom: 20px;
+}
+.intro h2{
+	font-family: Aclonica, sans-serif;
+	color: #ffffff;
+}
+.intro p{
+	font-family: Abel, sans-serif;
+	color: #ffffff;
+}
+.projects-horizontal .container{
+	border-bottom-style: solid;
+	border-bottom-color: rgb(247,73,2);
+}
+/* Beginn Section Teamgrid */
+.team-grid{
+	background: rgba(0,0,0,0);
+	margin-top: 20px;
+}
+.team-grid .container{
+	border-bottom-style: solid;
+	border-bottom-color: rgb(247,73,2);
+}
+#tg-intro{
+	margin-bottom: 40px;
+}
+#tg-intro h2{
+	color: #ffffff;
+	font-family: Aclonica, sans-serif;
+}
+#tg-intro p{
+	color: #ffffff;
+	font-family: Abel, sans-serif;
+}
+.cover .name{
+	font-family: Aclonica, sans-serif;
+}
+#alex{
+	background-image:url(../img/1.jpg);
+}
+#kathi{
+	background-image:url(../img/2.jpg);
+}
+#ich{
+	background-image: url(../img/3-3.png);
+    background-size:cover;
+	background-position: right center;
+}
+#natalya{
+	background-image:url(../img/4.jpg);
+}
+/* Projektteam Tasks*/
+.team-grid ul{
+	text-align: center;
+	padding-left: 20px;
+	color: rgb(255,255,255);
+	font-size: 13px;
+	list-style: none;
+}
+/* BEGINN Section timesheme */
+#timesheme .intro{
+	margin-top: 40px;
+}
+#timesheme .intro h2{
+	color: rgb(255,255,255);
+	font-family: Aclonica, sans-serif;
+	padding-bottom: 10px;
+}
+#timesheme .intro p{
+	color: rgb(240,240,240);
+	font-family: Abel, sans-serif;
+	margin-bottom: 53px;
+}
+#timesheme .intro i{
+	font-size: 35px;
+	color: #ffffff;
+	margin-left: 27px;
+}
+.fas{
+	font-size: 36px;
+	color: #ffffff;
+}
+.time-body{
+	background: rgba(0,0,0,0);
+}
+.time-content{
+	background: #292c2f;
+}
+.time-content h2{
+	color: #f9e526;
+}
+.time-content p{
+	color: #f9e526;
+}
+.fas .fa-play-circle .d-flex .justify-content-center{
+	font-size: 36px;
+	color: #ffffff;
+}
+

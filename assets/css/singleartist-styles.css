@@ -1,0 +1,155 @@
+div {
+  background: transparent;
+  text-align: center;
+}
+
+.row {
+  border-bottom-style: none;
+  border-bottom-color: rgb(247,73,2);
+  margin-bottom: 10px;
+	text-align: center;
+}
+
+
+.btn:not(:disabled):not(.disabled) {
+  font-size: 14px;
+  background: rgb(33,37,41);
+  border-style: none;
+  color: #f9e526;
+  margin-top: 15px;
+  padding-top: 6px;
+}
+
+.fa.fa-heart {
+  color: #f9e526;
+  font-size: 20px;
+  margin-left: 0px;
+  margin-right: 10px;
+}
+
+.fa.fa-eye {
+  color: #f9e526;
+  font-size: 20px;
+  margin-left: 0px;
+  margin-right: 10px;
+}
+
+.card {
+  background: rgba(52,58,64,0.4);
+}
+
+.card-header:first-child {
+  background: transparent;
+  border-bottom-color: rgb(247,73,2);
+}
+
+.mb-0, .my-0 {
+  color: rgb(255,255,255);
+  font-family: Aclonica, sans-serif;
+}
+
+.table-responsive.table-borderless {
+  border-bottom-style: none;
+}
+
+.table-borderless tbody + tbody, .table-borderless td, .table-borderless th, .table-borderless thead th {
+  width: 100px;
+  color: rgb(255,255,255);
+}
+
+.table-borderless tbody + tbody, .table-borderless td, .table-borderless th, .table-borderless thead th {
+  color: rgb(255,255,255);
+}
+
+tr {
+  color: rgb(255,255,255);
+}
+
+.h1, h1 {
+  color: rgb(255,255,255);
+  font-family: Aclonica, sans-serif;
+  font-size: 40px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.col-md-3.col-lg-5.offset-1 {
+  background: #444f51;
+  padding-top: 10px;
+}
+
+.yelp_basic {
+  background: rgb(41,44,47);
+  border-style: solid;
+  border-color: rgb(41,44,47);
+  border-radius: 6px;
+}
+
+.yelp_first {
+  padding-right: 5px;
+}
+
+.yelp_star {
+  color: #f9e526;
+  width: 20px;
+  height: 20px;
+}
+
+.h2, h2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: #f74902;
+  font-size: 20px;
+}
+
+p {
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+}
+
+.btn:not(:disabled):not(.disabled) {
+  font-size: 14px;
+  background: rgb(33,37,41);
+  border-style: none;
+  color: #f9e526;
+  margin-top: 15px;
+  padding-top: 6px;
+}
+
+.fa.fa-star-o {
+  color: #f9e526;
+  font-size: 20px;
+  margin-left: 0px;
+  margin-right: 10px;
+}
+
+.fa.fa-eye-o {
+  color: #f9e526;
+  font-size: 20px;
+  margin-left: 0px;
+  margin-right: 10px;
+}
+
+.btn:not(:disabled):not(.disabled) {
+  font-size: 14px;
+  background: rgb(33,37,41);
+  border-style: none;
+  color: #f9e526;
+  padding-top: 6px;
+  margin: 15px 10px 15px 10px;
+  
+}
+
+.thumbnail{
+	margin-bottom: 15px;
+	padding-top: 15px;
+	background-color: rgb(52,58,64,0.4);
+	height: 300px;
+}
+
+.caption a{
+	text-decoration: none;
+	color: #f9e526;
+}
+

@@ -1,0 +1,43 @@
+[18-Nov-2020 17:47:07 Europe/Berlin] PHP Warning:  require(assets/php/sqlverbindung.php): failed to open stream: No such file or directory in /volume1/Web/assets/php/registration.php on line 4
+[18-Nov-2020 17:47:07 Europe/Berlin] PHP Fatal error:  require(): Failed opening required 'assets/php/sqlverbindung.php' (include_path='C:\xampp\php\PEAR') in /volume1/Web/assets/php/registration.php on line 4
+[18-Nov-2020 17:50:22 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: PDO::__construct(): php_network_getaddresses: gethostbyname failed. errno=0 in /volume1/Web/assets/php/sqlverbindung.php:7
+Stack trace:
+#0 /volume1/Web/assets/php/sqlverbindung.php(7): PDO->__construct('mysql:host=art;...', 'root', '')
+#1 /volume1/Web/assets/php/registration.php(4): require('/volume1/Web/as...')
+#2 {main}
+
+Next PDOException: SQLSTATE[HY000] [2002] php_network_getaddresses: gethostbyname failed. errno=0 in /volume1/Web/assets/php/sqlverbindung.php:7
+Stack trace:
+#0 /volume1/Web/assets/php/sqlverbindung.php(7): PDO->__construct('mysql:host=art;...', 'root', '')
+#1 /volume1/Web/assets/php/registration.php(4): require('/volume1/Web/as...')
+#2 {main}
+  thrown in /volume1/Web/assets/php/sqlverbindung.php on line 7
+[18-Nov-2020 17:52:26 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: PDO::__construct(): php_network_getaddresses: gethostbyname failed. errno=0 in /volume1/Web/assets/php/sqlverbindung.php:7
+Stack trace:
+#0 /volume1/Web/assets/php/sqlverbindung.php(7): PDO->__construct('mysql:host=art;...', 'root', '')
+#1 /volume1/Web/assets/php/registration.php(4): require('/volume1/Web/as...')
+#2 {main}
+
+Next PDOException: SQLSTATE[HY000] [2002] php_network_getaddresses: gethostbyname failed. errno=0 in /volume1/Web/assets/php/sqlverbindung.php:7
+Stack trace:
+#0 /volume1/Web/assets/php/sqlverbindung.php(7): PDO->__construct('mysql:host=art;...', 'root', '')
+#1 /volume1/Web/assets/php/registration.php(4): require('/volume1/Web/as...')
+#2 {main}
+  thrown in /volume1/Web/assets/php/sqlverbindung.php on line 7
+[18-Nov-2020 17:53:06 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: PDO::__construct(): php_network_getaddresses: gethostbyname failed. errno=0 in /volume1/Web/assets/php/sqlverbindung.php:7
+Stack trace:
+#0 /volume1/Web/assets/php/sqlverbindung.php(7): PDO->__construct('mysql:host=art;...', 'root', '')
+#1 /volume1/Web/assets/php/registration.php(4): require('/volume1/Web/as...')
+#2 {main}
+
+Next PDOException: SQLSTATE[HY000] [2002] php_network_getaddresses: gethostbyname failed. errno=0 in /volume1/Web/assets/php/sqlverbindung.php:7
+Stack trace:
+#0 /volume1/Web/assets/php/sqlverbindung.php(7): PDO->__construct('mysql:host=art;...', 'root', '')
+#1 /volume1/Web/assets/php/registration.php(4): require('/volume1/Web/as...')
+#2 {main}
+  thrown in /volume1/Web/assets/php/sqlverbindung.php on line 7
+[18-Nov-2020 17:53:56 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined class constant 'ERRMODE_EXEPTION' in /volume1/Web/assets/php/sqlverbindung.php:8
+Stack trace:
+#0 /volume1/Web/assets/php/registration.php(4): require()
+#1 {main}
+  thrown in /volume1/Web/assets/php/sqlverbindung.php on line 8

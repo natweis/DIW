@@ -1,0 +1,38 @@
+.register-photo{
+	background: rgba(0,0,0,0);
+}
+.register-photo .text-center{
+	padding-bottom: 34px;
+	margin-top: -23px;
+	color: #f9e526;
+	font-size: 40px;
+}
+.register-photo .form-container{
+	background: #292c2f;
+	border-radius: 0px;
+	border: 10px solid #292c2f ;
+}
+.register-photo .form-container .image-holder{
+	background: url(../../assets/img/register.jpg) center / contain no-repeat, #444f51;
+	border-style: none;
+	padding-left: 0px;
+	margin-left: 0px;
+}
+.register-photo .form-container form{
+	background: #444f51;
+}
+.register-photo .form-container form .form-group .form-check-label{
+	color: rgb(249,229,38);
+}
+.register-photo .form-container form .btn{
+	color: rgb(249,229,38);
+	background: #33383b;
+}
+.register-photo .form-container form .already{
+	color: rgb(249,229,38);
+}
+#acctext{
+	color: rgb(249,229,38);
+}
+input[type="password"]:valid { border: 2px solid green }
+input[type="password"]:focus:invalid { border: 2px solid red }

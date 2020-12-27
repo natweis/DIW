@@ -1,0 +1,31 @@
+.bg-artist{
+    background: url(../img/fragezeichen_bg.jpg) center / cover no-repeat, #8f9296;
+	border-style: none;
+}
+
+.rahmen {
+    margin-bottom: 0px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-style: none;
+	border-bottom-style: none;
+	border-bottom-color: rgb(247,73,2);
+ }
+
+ .text-center{
+	font-family: Aclonica, sans-serif;
+    color: #ffffff;
+ }
+
+ .intro p{
+	font-family: Abel, sans-serif;
+	color: #ffffff;
+
+ }
+
+ .table .th .td{
+	 width: 100 % ;
+	 border: 5px solid white;
+ }
+
+

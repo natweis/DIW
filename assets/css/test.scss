@@ -1,0 +1,29 @@
+/ SCSS
+.star-rating-input {
+  display: inline-block;
+  vertical-align: middle;
+  color: $colorThirth;
+  input {
+    display: none;
+  }
+  label {
+    cursor: pointer;
+    text-indent: 0;
+    width: 1em;
+    overflow: hidden;
+    display: inline-block;
+    height: 1em;
+    line-height: 1em;
+    font-size: 1.5em;
+    &:before {
+      //@extend .material-icon;
+      content: "\E838";
+      content: "★";
+      display: inline-block;
+      text-shadow: 0 0 0 $colorForeground;
+    }
+  }
+  input:checked ~ label {
+    color: $colorNeutral
+  }
+}

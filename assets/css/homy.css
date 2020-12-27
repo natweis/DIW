@@ -1,0 +1,61 @@
+body {
+	color: #ffffff;
+}
+
+#revhead{
+	text-align: center;
+	padding-top: 3rem;
+	border-top-style: solid;
+    border-top-color: rgb(247,73,2);
+	color: #ffffff;
+	font-family: Aclonica, sans-serif;
+}
+
+#revhead i{
+	padding-top: 15px;
+	font-size: 25px;
+	color: rgb(250,240,10);
+}
+
+#rev{
+	margin-top: 1rem;
+	justify-content:center;
+	text-align: center;
+	border-top: 12px;
+	
+}
+
+#rev .yelp_basic{
+	background: #292c2f;
+	color: rgb(250,240,10);
+	border-radius: 5px;
+	font-size: 14px;
+	margin-top: 15px;
+	padding: 5px 10px 5px 10px;
+}
+
+#rev .yelp_basic a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+#rev .yelp_basic a:hover{
+	color: blue;
+}
+
+#rev .yelp_first h3{
+	font-size: 25px;
+	
+}
+
+#rev .yelp_first h4{
+	font-size: 14px;
+
+}
+
+#rev .yelp_star{
+	width: 5%;
+}
+
+
+

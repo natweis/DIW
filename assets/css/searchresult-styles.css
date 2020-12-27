@@ -1,0 +1,20 @@
+.card{
+	background-color: #343a40;
+}
+
+.card h3{
+	color: #f9e526;
+}
+
+.table td, .table th{
+	text-align: center;
+}
+
+.thead-dark th{
+	width: 20%;
+	border-left: 1px;
+	border-left-color: white;
+	border-style: solid;
+}
+
+
