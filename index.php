@@ -1,8 +1,8 @@
 <?php
 
-	use assets\php\Template;
+	//use assets\php\Template;
 
-	Template ::view('index.html');
+	//Template ::view('index.html');
 ?>
 
 <!DOCTYPE html>

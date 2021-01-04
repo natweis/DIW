@@ -25,7 +25,7 @@ class Registration
             $stmt->execute();
             $count=$stmt->rowCount();
             //Prüfung ob dieser Nutzer bereits existiert
-            if($count==0)   
+            if($count===0)
             {
                 //PHP seitige Prüfung ob beide Passwörter übereinstimmen -> Unstimmigkeit wird durch Html ausgegeben
                 if($_POST["pw"]==$_POST["pw2"]) 

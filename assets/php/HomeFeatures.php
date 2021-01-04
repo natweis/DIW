@@ -1,5 +1,7 @@
 <?php
 
+	use assets\php\Dbconnect;
+
 	error_reporting(E_ALL);
 	ini_set('display_errors', 'On');
 
@@ -38,7 +40,7 @@
 			$db = new Dbconnect;
 			$db -> connect();
 
-			$sql = ("SELECT customers.FirstName, customers.City, reviews.Comment, reviews.Rating, reviews.ArtWorkId
+			$sql = ("SELECT customers.FirstName, customers.City, customers.Country, reviews.Comment, reviews.Rating, reviews.ArtWorkId
 					FROM customers, reviews 
 					WHERE customers.CustomerID = reviews.CustomerId
 					ORDER BY reviews.ReviewDate 
@@ -54,6 +56,7 @@
 				foreach ($data as $row){
 					$review = $row['Comment'];
 					$city   = $row['City'];
+					$country   = $row['Country'];
 					$name   = $row['FirstName'];
 					$id     = $row['ArtWorkId'];
 					$rate   = $row['Rating'];
@@ -61,8 +64,8 @@
 					echo '<div class="col-md-3 col-lg-4">';
 					echo '<div class="yelp_basic">';
 					echo '<div class="yelp_first">';
-					echo '<h3>'.$name.'</h3>';
-					echo '<h4>&lt;'.$city.'&gt;</h4>';
+					echo '<h3>'.substr($name, 0, 1).'.</h3>';
+					echo '<h4>&lt; '.$city.' ('.$country.')'.' &gt;</h4>';
 					echo '</div>';
 					echo '<div class="yelp_first">';
 					switch ($rate){
@@ -142,4 +145,3 @@
 		}
 	}
 
-?>

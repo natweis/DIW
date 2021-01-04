@@ -3,10 +3,11 @@
 	require_once('assets/php/Subjects.php');
 	$temp = new Subjects();
 
-	$queryidcheck = $temp -> querycheck($_GET['id']);
-	if ($queryidcheck != true){
-		header("Location: /sorry.html");
-	} ?>
+//	$queryidcheck = $temp -> querycheck($_GET['id']);
+//	if ($queryidcheck != true){
+//		header("Location: /sorry.html");
+//	}
+	?>
 
 <!DOCTYPE html>
 <html lang="de">

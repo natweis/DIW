@@ -1,7 +1,9 @@
 <?php
 
-	error_reporting(E_ALL);
-	ini_set('display_errors', 'On');
+//	error_reporting(E_ALL);
+//	ini_set('display_errors', 'On');
+
+	use assets\php\Dbconnect;
 
 	require_once("Dbconnect.php");
 

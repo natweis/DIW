@@ -3,6 +3,24 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="58f7ca76-f2ee-4b36-8a53-e3fe8e83612a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,14 +35,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="SCSS File" />
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="PATH_TO_GIT" value="https://github.com/natweis/art_test.git" />
+    <option name="PATH_TO_GIT" value="https://github.com/natweis/DIW.git" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -35,6 +54,7 @@
   <component name="PhpDebugGeneral" xdebug_debug_port="9003" />
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1lU29tpJfVG0qF0bJAH8y3G28Hq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -45,8 +65,8 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/controllers" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img/Art_Images/images/works/square-medium" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -58,23 +78,24 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="build.tools" />
     <property name="sql.rename.search.for.storage.occurrences" value="true" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/assets/php/C_Genres.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/img/Art_Images/images/works/square-medium" />
       <recent name="$PROJECT_DIR$/app/controllers" />
       <recent name="$PROJECT_DIR$/assets/img" />
       <recent name="$PROJECT_DIR$/assets/js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/img/Art_Images/images/works/square-medium" />
+      <recent name="$PROJECT_DIR$/under_construction_pages" />
+      <recent name="$PROJECT_DIR$/assets/php" />
       <recent name="$PROJECT_DIR$/assets/php/archived_functions" />
       <recent name="$PROJECT_DIR$/app" />
-      <recent name="$PROJECT_DIR$/model/database" />
-      <recent name="$PROJECT_DIR$/assets/img" />
-      <recent name="$PROJECT_DIR$/assets/php" />
     </key>
   </component>
   <component name="RunManager" selected="PHP Script.Singleartwork.php">
@@ -131,12 +152,29 @@
       <workItem from="1608798445458" duration="21281000" />
       <workItem from="1608994912863" duration="44900000" />
       <workItem from="1609077400414" duration="2538000" />
-      <workItem from="1609083965752" duration="7095000" />
+      <workItem from="1609083965752" duration="14931000" />
+      <workItem from="1609270414800" duration="3913000" />
+      <workItem from="1609279938020" duration="15965000" />
+      <workItem from="1609359186182" duration="25891000" />
+      <workItem from="1609625816269" duration="41277000" />
+      <workItem from="1609742334752" duration="11491000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
@@ -154,10 +192,11 @@
       <screen x="45" y="23" width="2515" height="1417" />
     </state>
     <state x="1449" y="599" key="#File_Watchers/2560.23.1920.1057/45.23.2515.1417@45.23.2515.1417" timestamp="1609041616211" />
-    <state x="938" y="508" key="#Notifications" timestamp="1608799201194">
-      <screen x="42" y="23" width="2518" height="1417" />
+    <state x="939" y="508" key="#Notifications" timestamp="1609283039611">
+      <screen x="43" y="23" width="2517" height="1417" />
     </state>
-    <state x="938" y="508" key="#Notifications/2560.23.1920.1057/42.23.2518.1417@42.23.2518.1417" timestamp="1608799201194" />
+    <state x="938" y="508" key="#Notifications/2560.23.1920.1057/42.23.2518.1417@42.23.2518.1417" timestamp="1609279723430" />
+    <state x="939" y="508" key="#Notifications/2560.23.1920.1057/43.23.2517.1417@43.23.2517.1417" timestamp="1609283039611" />
     <state x="939" y="508" key="#Notifications/2560.23.1920.1057/44.23.2516.1417@44.23.2516.1417" timestamp="1607638906503" />
     <state x="940" y="508" key="#Notifications/2560.23.1920.1057/45.23.2515.1417@45.23.2515.1417" timestamp="1607642965985" />
     <state x="661" y="339" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607639569162">
@@ -243,29 +282,36 @@
     <state width="1770" height="322" key="GridCell.Tab.0.right/2560.23.1920.1057/43.23.2517.1417@43.23.2517.1417" timestamp="1607710566271" />
     <state width="1719" height="322" key="GridCell.Tab.0.right/2560.23.1920.1057/44.23.2516.1417@44.23.2516.1417" timestamp="1608612954138" />
     <state width="1719" height="322" key="GridCell.Tab.0.right/44.23.2516.1417@44.23.2516.1417" timestamp="1608631604065" />
-    <state x="1467" y="446" key="NewPhpClassDialog" timestamp="1609093548192">
-      <screen x="39" y="23" width="2521" height="1417" />
+    <state x="1466" y="446" key="NewPhpClassDialog" timestamp="1609757282240">
+      <screen x="37" y="23" width="2523" height="1417" />
     </state>
-    <state x="1467" y="446" key="NewPhpClassDialog/2560.23.1920.1057/39.23.2521.1417@39.23.2521.1417" timestamp="1609093548192" />
-    <state x="1468" y="446" key="NewPhpClassDialog/2560.23.1920.1057/41.23.2519.1417@41.23.2519.1417" timestamp="1608682776781" />
-    <state x="1468" y="446" key="NewPhpClassDialog/2560.23.1920.1057/42.23.2518.1417@42.23.2518.1417" timestamp="1609074638112" />
-    <state x="1468" y="446" key="NewPhpClassDialog/2560.23.1920.1057/43.23.2517.1417@43.23.2517.1417" timestamp="1608978303452" />
+    <state x="1466" y="446" key="NewPhpClassDialog/2560.23.1920.1057/37.23.2523.1417@37.23.2523.1417" timestamp="1609757282240" />
+    <state x="1467" y="446" key="NewPhpClassDialog/2560.23.1920.1057/38.23.2522.1417@38.23.2522.1417" timestamp="1609102295289" />
+    <state x="1467" y="446" key="NewPhpClassDialog/2560.23.1920.1057/39.23.2521.1417@39.23.2521.1417" timestamp="1609682881670" />
+    <state x="1467" y="446" key="NewPhpClassDialog/2560.23.1920.1057/40.23.2520.1417@40.23.2520.1417" timestamp="1609596531691" />
+    <state x="1468" y="446" key="NewPhpClassDialog/2560.23.1920.1057/41.23.2519.1417@41.23.2519.1417" timestamp="1609594440233" />
+    <state x="1468" y="446" key="NewPhpClassDialog/2560.23.1920.1057/42.23.2518.1417@42.23.2518.1417" timestamp="1609279563670" />
+    <state x="1468" y="446" key="NewPhpClassDialog/2560.23.1920.1057/43.23.2517.1417@43.23.2517.1417" timestamp="1609291197255" />
     <state x="1469" y="446" key="NewPhpClassDialog/2560.23.1920.1057/45.23.2515.1417@45.23.2515.1417" timestamp="1609043729845" />
-    <state x="1202" y="579" key="NewPhpFileDialog" timestamp="1609065768171">
-      <screen x="42" y="23" width="2518" height="1417" />
-    </state>
-    <state x="1201" y="579" key="NewPhpFileDialog/2560.23.1920.1057/40.23.2520.1417@40.23.2520.1417" timestamp="1607877772492" />
-    <state x="1202" y="579" key="NewPhpFileDialog/2560.23.1920.1057/42.23.2518.1417@42.23.2518.1417" timestamp="1609065768171" />
-    <state x="1203" y="579" key="NewPhpFileDialog/2560.23.1920.1057/43.23.2517.1417@43.23.2517.1417" timestamp="1609018445678" />
-    <state x="1204" y="579" key="NewPhpFileDialog/2560.23.1920.1057/45.23.2515.1417@45.23.2515.1417" timestamp="1607644745201" />
-    <state x="1262" y="406" width="1210" height="722" key="SettingsEditor" timestamp="1609100481359">
+    <state x="1201" y="579" key="NewPhpFileDialog" timestamp="1609683623441">
       <screen x="39" y="23" width="2521" height="1417" />
     </state>
+    <state x="1201" y="579" key="NewPhpFileDialog/2560.23.1920.1057/39.23.2521.1417@39.23.2521.1417" timestamp="1609683623441" />
+    <state x="1201" y="579" key="NewPhpFileDialog/2560.23.1920.1057/40.23.2520.1417@40.23.2520.1417" timestamp="1609602595585" />
+    <state x="1202" y="579" key="NewPhpFileDialog/2560.23.1920.1057/41.23.2519.1417@41.23.2519.1417" timestamp="1609663217046" />
+    <state x="1202" y="579" key="NewPhpFileDialog/2560.23.1920.1057/42.23.2518.1417@42.23.2518.1417" timestamp="1609065768171" />
+    <state x="1203" y="579" key="NewPhpFileDialog/2560.23.1920.1057/43.23.2517.1417@43.23.2517.1417" timestamp="1609290253412" />
+    <state x="1204" y="579" key="NewPhpFileDialog/2560.23.1920.1057/45.23.2515.1417@45.23.2515.1417" timestamp="1607644745201" />
+    <state x="485" y="368" width="1210" height="722" key="SettingsEditor" timestamp="1609689304759">
+      <screen x="38" y="23" width="2522" height="1417" />
+    </state>
+    <state x="485" y="368" key="SettingsEditor/2560.23.1920.1057/38.23.2522.1417@38.23.2522.1417" timestamp="1609689304759" />
     <state x="1262" y="406" key="SettingsEditor/2560.23.1920.1057/39.23.2521.1417@39.23.2521.1417" timestamp="1609100481359" />
+    <state x="730" y="411" key="SettingsEditor/2560.23.1920.1057/40.23.2520.1417@40.23.2520.1417" timestamp="1609304798128" />
     <state x="407" y="187" width="1210" height="722" key="SettingsEditor/2560.23.1920.1057/41.23.2519.1417@41.23.2519.1417" timestamp="1608670347785" />
-    <state x="1210" y="407" key="SettingsEditor/2560.23.1920.1057/42.23.2518.1417@42.23.2518.1417" timestamp="1609083930915" />
-    <state x="1264" y="406" key="SettingsEditor/2560.23.1920.1057/43.23.2517.1417@43.23.2517.1417" timestamp="1609087390048" />
-    <state x="709" y="130" key="SettingsEditor/2560.23.1920.1057/44.23.2516.1417@44.23.2516.1417" timestamp="1607640412909" />
+    <state x="1210" y="407" key="SettingsEditor/2560.23.1920.1057/42.23.2518.1417@42.23.2518.1417" timestamp="1609271996740" />
+    <state x="1264" y="406" key="SettingsEditor/2560.23.1920.1057/43.23.2517.1417@43.23.2517.1417" timestamp="1609283030865" />
+    <state x="709" y="130" key="SettingsEditor/2560.23.1920.1057/44.23.2516.1417@44.23.2516.1417" timestamp="1609282498608" />
     <state x="710" y="130" width="1461" height="722" key="SettingsEditor/2560.23.1920.1057/45.23.2515.1417@45.23.2515.1417" timestamp="1609041597639" />
     <state x="1438" y="557" width="428" height="333" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1608978618140">
       <screen x="43" y="23" width="2517" height="1417" />
@@ -276,15 +322,16 @@
       <screen x="43" y="23" width="2517" height="1417" />
     </state>
     <state x="1197" y="489" key="refactoring.ChangeSignatureDialog/2560.23.1920.1057/43.23.2517.1417@43.23.2517.1417" timestamp="1609050326970" />
-    <state x="1548" y="579" key="scopes" timestamp="1608772556604">
-      <screen x="42" y="23" width="2518" height="1417" />
+    <state x="1546" y="579" key="scopes" timestamp="1609754748414">
+      <screen x="37" y="23" width="2523" height="1417" />
     </state>
+    <state x="1546" y="579" key="scopes/2560.23.1920.1057/37.23.2523.1417@37.23.2523.1417" timestamp="1609754748414" />
     <state x="1548" y="579" key="scopes/2560.23.1920.1057/42.23.2518.1417@42.23.2518.1417" timestamp="1608772556604" />
-    <state x="1417" y="339" width="672" height="676" key="search.everywhere.popup" timestamp="1609093405849">
-      <screen x="39" y="23" width="2521" height="1417" />
+    <state x="1417" y="339" width="671" height="676" key="search.everywhere.popup" timestamp="1609298595881">
+      <screen x="40" y="23" width="2520" height="1417" />
     </state>
     <state x="1417" y="339" width="672" height="676" key="search.everywhere.popup/2560.23.1920.1057/39.23.2521.1417@39.23.2521.1417" timestamp="1609093405849" />
-    <state x="1417" y="339" width="671" height="676" key="search.everywhere.popup/2560.23.1920.1057/40.23.2520.1417@40.23.2520.1417" timestamp="1608703046530" />
+    <state x="1417" y="339" width="671" height="676" key="search.everywhere.popup/2560.23.1920.1057/40.23.2520.1417@40.23.2520.1417" timestamp="1609298595881" />
     <state x="1417" y="339" width="670" height="676" key="search.everywhere.popup/2560.23.1920.1057/41.23.2519.1417@41.23.2519.1417" timestamp="1608673999994" />
   </component>
 </project>

@@ -1,5 +1,7 @@
 <?php
 
+	use assets\php\Dbconnect;
+
 	error_reporting(E_ALL);
 	ini_set('display_errors', 'On');
 
@@ -170,7 +172,7 @@ class Singleartist implements iClassDefault, iART
 		// Prüfung ob zu dieser ID Ergebnisse aus der SQL Abfrage vorliegen
         $idcheck=$result->rowCount();
 		
-        if($idcheck == 1)
+        if($idcheck === 1)
         {
             return true;
         }
@@ -203,7 +205,7 @@ class Singleartist implements iClassDefault, iART
 		// Ergebnisverarbeitung
 		$data = $result->fetchAll();
 		
-		if(count($data)==0)
+		if(count($data)===0)
 		{
 			echo "<p>Keine Suchtreffer </p>";
 		}

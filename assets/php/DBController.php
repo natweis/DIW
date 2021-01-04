@@ -1,12 +1,16 @@
 <?php
 
-	error_reporting(E_ALL);
-	ini_set('display_errors', 'On');
 
-	spl_autoload_register();
+	namespace assets\php;
 
-	class DBController
-	{
+
+	use function call_user_func_array;
+	use function mysqli_connect;
+	use function mysqli_fetch_assoc;
+	use function mysqli_num_rows;
+	use function mysqli_query;
+
+	class DBController {
 
 		private $host = "localhost";
 
@@ -16,30 +20,18 @@
 
 		private $database = "art_test";
 
-		private static $conn;
+		private $conn;
 
-		/**
-		 * DBController constructor.
-		 */
 		public function __construct(){
 			$this -> conn = mysqli_connect($this -> host, $this -> user, $this -> password, $this -> database);
 		}
 
-		/**
-		 *
-		 */
-		public static function getConnection(){
+		public function getConnection(){
 			if (empty($this -> conn)){
 				new Database();
 			}
 		}
 
-		/**
-		 * @param         $query
-		 * @param  array  $params
-		 *
-		 * @return mixed
-		 */
 		public function getDBResult($query, $params = []){
 			$sql_statement = $this -> conn -> prepare($query);
 			if (!empty($params)){
@@ -59,10 +51,6 @@
 			}
 		}
 
-		/**
-		 * @param         $query
-		 * @param  array  $params
-		 */
 		public function updateDB($query, $params = []){
 			$sql_statement = $this -> conn -> prepare($query);
 			if (!empty($params)){
@@ -71,10 +59,6 @@
 			$sql_statement -> execute();
 		}
 
-		/**
-		 * @param $sql_statement
-		 * @param $params
-		 */
 		public function bindParams($sql_statement, $params){
 			$param_type = "";
 			foreach ($params as $query_param){
@@ -86,9 +70,22 @@
 				$bind_params[] = &$params[$k]["param_value"];
 			}
 
-			/**
-			 * Call a callback with an array of parameters
-			 */
 			call_user_func_array([$sql_statement, 'bind_param'], $bind_params);
 		}
+
+		public function runQuery($query){
+			$result = mysqli_query($this -> conn, $query);
+			while ($row = mysqli_fetch_assoc($result)){
+				$resultset[] = $row;
+			}
+			if (!empty($resultset)) return $resultset;
+		}
+
+		public function numRows($query){
+			$result   = mysqli_query($this -> conn, $query);
+			$rowcount = mysqli_num_rows($result);
+
+			return $rowcount;
+		}
+
 	}

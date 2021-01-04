@@ -1,0 +1,78 @@
+@import "compass/css3";
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  font-family: arial;
+}
+
+body {
+  background-color: #555;
+  text-align: center;
+  font-family: arial;
+}
+
+.pagination {
+  list-style: none;
+  display: inline-block;
+  padding: 0;
+  margin-top: 10px;
+
+  li {
+    display: inline;
+    text-align: center;
+  }
+
+  a {
+    float: left;
+    display: block;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 5px 12px;
+    color: #fff;
+    margin-left: -1px;
+    border: 1px solid transparent;
+    line-height: 1.5;
+
+    &.active {
+      cursor: default;
+    }
+
+    &:active {
+      outline: none;
+    }
+  }
+}
+
+.modal-1 {
+  li {
+    &:first-child {
+      a {
+        @include border-radius(6px 0 0 6px);
+      }
+    }
+
+    &:last-child {
+      a {
+        @include border-radius(0 6px 6px 0);
+      }
+    }
+  }
+
+  a {
+    border-color: #ddd;
+    color: #4285F4;
+    background: #fff;
+
+    &:hover {
+      background: #eee;
+    }
+
+    &.active, &:active {
+      border-color: #4285F4;
+      background: #4285F4;
+      color: #fff;
+    }
+  }
+}

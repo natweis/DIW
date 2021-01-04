@@ -62,7 +62,7 @@
 									</tbody>
 								</table>
 								<button class="btn btn-primary" type="button">
-													<i class="far fa-heart bot"></i>Auf die Wunschliste
+													<i class="fa fa-heart"></i>Auf die Wunschliste
 												</button>
 							</div>
 						</div>

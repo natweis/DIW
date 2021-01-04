@@ -1,18 +1,21 @@
 <?php
 
+	namespace assets\php;
+
 	error_reporting(E_ALL);
 	ini_set('display_errors', 'On');
+
 
 	/**
 	 * Einfacher Autoloader, da Composer nicht erlaubt.
 	 * PSR-0: Autoloading Standard
 	 */
 
-	namespace assets\php;
+
 
 	$rootDir = __DIR__.'/classes/';
 
-	$autoload = function($className) use ($rootDir){
+	$autoload = static function($className) use ($rootDir){
 		$fileName = '';
 		if ($lastNameSpacePosition = strpos($className, '\\')){
 			$namespace = substr($className, 0, $lastNameSpacePosition);

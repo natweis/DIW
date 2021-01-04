@@ -32,6 +32,8 @@
                         </ul>
                     </div>
                 </div>
+
+
                 <div class="row">
                     <div class="col-5 col-lg-5 offset-4">
                     <form id="advancedsearch" method="post">
@@ -42,7 +44,7 @@
 							<label class="custom-control-label" id="or" for="formCheck-1">Künstler</label>
 						</div>
                         <ul class="list-unstyled">
-							<input class="form-control" type="search" placeholder="Name des Künstlers/Kunstwerk ...">
+							<input class="form-control" type="search" placeholder="Name des Künstlers/Kunstwerks ...">
 							<li class="text-left">&gt;&gt; In welchem Zeitraum?</li>
                             <label class="text-left">von <input type="number" min="1" max="2020" step="1" value="1266"></label>
                             <label class="text-left">bis <input type="number" min="1" max="2020" step="1" value="2020"></label>

@@ -1,5 +1,7 @@
 <?php
 
+	use assets\php\Dbconnect;
+
 	error_reporting(E_ALL);
 	ini_set('display_errors', 'On');
 
@@ -40,7 +42,7 @@
 		private $gweb;
 
 		function __construct($id){
-			$db = new Dbconnect;
+			$db = new Dbconnect();
 			$db -> connect();
 
 			$sql = ("SELECT DISTINCT 
@@ -206,7 +208,7 @@
 			// Prüfung ob zu dieser ID Ergebnisse aus der SQL Abfrage vorliegen
 			$idcheck = $result -> rowCount();
 
-			if ($idcheck == 1){
+			if ($idcheck === 1){
 				return true;
 			} else {
 				return false;
@@ -310,7 +312,7 @@
 					echo '<div class="col-md-3 col-lg-5">';
 					echo '<div class="yelp_basic">';
 					echo '<div class="yelp_first">';
-					echo '<h3>'.$name.'</h3>';
+					echo '<h3>'.substr($name, 0, 1).'.</h3>';
 					echo '<h4>&lt; '.$city.' ('.$country.')'.' &gt;</h4>';
 					echo '</div>';
 					echo '<div class="yelp_first">';
@@ -365,8 +367,9 @@
 
 					}
 
-					echo '</div><br></div>';
+
 					echo '<p>'.substr($review, 0, 150).'...<br></p>';
+					echo '</div></div>';
 					echo '</div>';
 				}
 			} else {

@@ -2,8 +2,11 @@
 
 	ini_set('display_errors', 1);
 	error_reporting(E_ALL ^ E_NOTICE);
+
 	require_once("assets/php/Login.php");
+
 	session_start();
+
 	$tempnav = new Login;
 	if (isset($_GET["logout"])){
 		session_destroy();
@@ -42,7 +45,7 @@
 									</div>
 								</div>
 								<div class="row">
-									<div class="col"><i class="fa fa-paint-brush"></i><a href="genre.php">Nach Genre</a>
+									<div class="col"><i class="fa fa-paint-brush"></i><a href="genres.php">Nach Genre</a>
 									</div>
 								</div>
 								<div class="row">
@@ -88,13 +91,13 @@
 									<?php
 										echo "<div class='col'>";
 										//Ausgabe des Menüs angepasst auf den Nutzernamen und Loginstatus
-										if ($name == false){
+										if ($name === false){
 											echo "<i class='fa fa-gears' id='meinaccount-icon'></i><a href='login.php'>Mein Account</a>";
 										} else {
 											echo "<i class='fa fa-gears' id='meinaccount-icon'></i><a href='myaccount.php'>Mein Account $name</a>";
 											echo "<br/>";
 											//Prüfung ob der Nutzer Administrator ist
-											if ($tempnav -> admincheck() == 'Admin'){
+											if ($tempnav -> admincheck() === 'Admin'){
 												echo "<i class='fa fa-users' id='usermgmt-icon'></i><a href='/accountmanagement.php'>UserMgmt</a>";
 												echo "<br/>";
 											}
